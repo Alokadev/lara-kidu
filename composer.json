@@ -8,7 +8,7 @@
     },
     "require": {
       "php": "^8.2", 
-      "illuminate/support": "^11.0"  // Add ^11.0 support
+      "illuminate/support": "^11.0"
     },
     "extra": {
       "laravel": {
