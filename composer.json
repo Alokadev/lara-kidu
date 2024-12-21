@@ -1,0 +1,24 @@
+{
+    "name": "larakidu/kidu-package",
+    "description": "A Laravel package to generate models, controllers, and repositories using stubs.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aloka Devapriya",
+            "email": "alokadevapriya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Larakidu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larakidu\\ServiceProvider"
+            ]
+        }
+    }
+}

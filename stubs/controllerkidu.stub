@@ -1,0 +1,51 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Repositories\{{repositoryName}}Repository;
+use Illuminate\Http\Request;
+
+class {{repositoryName}}Controller extends Controller
+{
+protected $repo;
+
+public function __construct({{repositoryName}}Repository $repo)
+{
+$this->repo = $repo;
+}
+
+public function index()
+{
+// Add your logic here
+}
+
+public function show($id)
+{
+// Add your logic here
+}
+
+public function create()
+{
+// Add your logic here
+}
+
+public function store(Request $request)
+{
+// Add your logic here
+}
+
+public function edit($id)
+{
+// Add your logic here
+}
+
+public function update(Request $request, $id)
+{
+// Add your logic here
+}
+
+public function destroy($id)
+{
+// Add your logic here
+}
+}
