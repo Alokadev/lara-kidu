@@ -4,7 +4,7 @@ namespace Larakidu;
 
 use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends ServiceProvider
+class KiduServiceProvider extends ServiceProvider
 {
     public function register()
     {
